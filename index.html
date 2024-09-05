@@ -1,6 +1,94 @@
-<HTML>
-  <BODY>
-    DREAMERS-CRM
-    <img src="mapache.jpg" alt="mapache" width="300" height="200">
-  </BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO</title>
+</head>
+<body bgcolor="#e0e0e0" text="#333333" link="#1a73e8" vlink="#1a73e8" alink="#1a73e8">
+
+    <!-- Encabezado con logo -->
+    <header style="text-align: center; padding: 20px; position: relative; background-color: #00796b; color: white;">
+        <div style="position: absolute; top: 10px; left: 10px;">
+            <!-- Zona para el logo -->
+            <img src="img/LOGO DEPORTIVO.jpg" alt="Logo de la Tienda" height="135">
+        </div>
+        <h1>DELTAESPORT</h1>
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 10px 0;">
+                <li style="display: inline; margin: 0 15px;"><a href="#inicio" style="color: white;">Inicio</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#productos" style="color: white;">Productos</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#ofertas" style="color: white;">Ofertas</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#contacto" style="color: white;">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Texto animado flotante -->
+    <div style="background-color: #1a73e8; color: #ffffff; font-size: 1.5em; padding: 10px 0; text-align: center; overflow: hidden;">
+        <marquee behavior="scroll" direction="left">
+            ¡Bienvenido a nuestra tienda de productos deportivos! Explora nuestras camisetas, uniformes, accesorios y más.
+        </marquee>
+    </div>
+
+    <!-- Contenido principal en 3 columnas -->
+    <div style="display: flex; padding: 20px; gap: 20px; flex-wrap: wrap;">
+        <!-- Primera columna -->
+        <div style="width: 30%; padding: 10px; border: 2px solid #1a73e8; background-color: #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <h2>Camisetas</h2>
+            <img src="img/CAMISETAS.jpg" alt="Camiseta Deportiva 1" style="width: 100%; border-radius: 5px;">
+            <p>¡Descubre nuestra colección de camisetas deportivas de alta calidad y estilo único!</p>
+        </div>
+
+        <!-- Segunda columna -->
+        <div style="width: 30%; padding: 10px; border: 2px solid #1a73e8; background-color: #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <h2>Uniformes</h2>
+            <img src="img/UNIFORME.webp" alt="Uniforme Deportivo 1" style="width: 100%; border-radius: 5px;">
+            <p>Uniformes completos para todos los deportes. ¡Encuentra el que mejor se adapte a ti!</p>
+        </div>
+
+        <!-- Tercera columna -->
+        <div style="width: 30%; padding: 10px; border: 2px solid #1a73e8; background-color: #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <h2>Accesorios</h2>
+            <img src="img/ACCESORIOS.avif" alt="Accesorio Deportivo 1" style="width: 100%; border-radius: 5px;">
+            <p>Accesorios deportivos para complementar tu equipo. ¡Explora nuestra gama de productos!</p>
+        </div>
+    </div>
+
+    <!-- Sección de Ofertas -->
+    <section style="background-color: #ff5722; padding: 20px; text-align: center; color: white;">
+        <h2>Ofertas Especiales</h2>
+        <p>¡No te pierdas nuestras ofertas exclusivas! Obtén grandes descuentos en productos seleccionados.</p>
+        <a href="#ofertas" style="color: #ffffff; text-decoration: underline;">Ver todas las ofertas</a>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section style="background-color: #eed441; padding: 20px; margin: 20px auto; width: 80%; max-width: 800px;">
+        <h2 style="color: #1a73e8; text-align: center;">Contacto</h2>
+        <form style="text-align: center;">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required style="width: 80%; padding: 10px; margin: 10px 0;"><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required style="width: 80%; padding: 10px; margin: 10px 0;"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required style="width: 80%; padding: 10px; margin: 10px 0;"></textarea><br>
+            <button type="submit" style="background-color: #1a73e8; color: #ffffff; padding: 10px 20px; border: none; cursor: pointer;">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section style="background-color: #00796b; padding: 20px; text-align: center; color: white;">
+        <h2>Síguenos en Redes Sociales</h2>
+        <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Facebook</a>
+        <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Twitter</a>
+        <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Instagram</a>
+    </section>
+
+    <!-- Pie de página -->
+    <footer style="background-color: #00796b; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Tienda de Productos Deportivos. Todos los derechos reservados.</p>
+        <p>¡Gracias por visitar nuestra tienda! Mantente al tanto de nuestras novedades y ofertas.</p>
+    </footer>
+
+</body>
+</html>
